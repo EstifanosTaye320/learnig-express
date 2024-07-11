@@ -1,19 +1,19 @@
 function Animal(name) {
-    this.name =name;
+  this.name = name;
 }
 
 Animal.prototype.speck = (noise) => {
-    console.log("Animal noise: " + noise + " noise");
-}
+  console.log("Animal noise: " + noise + " noise");
+};
 
 function Cat(name, color) {
-    Animal.call(this, name);
-    this.color = color;
+  Animal.call(this, name);
+  this.color = color;
 }
 
 function Dog(name, bread) {
-    Animal.call(this, name);
-    this.bread = bread;
+  Animal.call(this, name);
+  this.bread = bread;
 }
 
 Cat.prototype = Object.create(Animal.prototype);
@@ -30,3 +30,6 @@ console.log(myCat.name, myCat.color);
 
 myDog.speck(myDog.name);
 myCat.speck(myCat.name);
+
+// Exercise:
+// run the file, understand the code, and rewrite the contents

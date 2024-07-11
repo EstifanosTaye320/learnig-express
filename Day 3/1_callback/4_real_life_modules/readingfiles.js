@@ -15,7 +15,7 @@ function readfile(path, callback) {
 }
 
 // Understand this code
-readfile("./Day 3/callback/real_life_modules/reading.txt", (err, data) => {
+readfile("./Day 3/1_callback/4_real_life_modules/reading.txt", (err, data) => {
   if (err) {
     console.log("This is the error" + " " + err);
   } else {
