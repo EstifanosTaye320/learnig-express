@@ -26,9 +26,9 @@ function postingmessage(event) {
     }).then((response) => {
       if (response.ok) {
         console.log("Message created successfully!");
-        input.value = ""; // Clear the input field
-        value.textContent = ""; // Clear the display
-        main(); // Refresh the list of messages
+        input.value = "";
+        value.textContent = "";
+        main();
       } else {
         console.log("Error creating message. Please try again.");
       }
@@ -55,10 +55,9 @@ function main() {
 
 function addToBody(mess) {
   const new_message = document.createElement("p");
-  new_message.textContent = mess.message; // Access the message content
+  new_message.textContent = mess.message;
 
   body.appendChild(new_message);
 }
 
-// Call main to load initial messages
 main();
