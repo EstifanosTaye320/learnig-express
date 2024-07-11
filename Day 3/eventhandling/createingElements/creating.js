@@ -6,15 +6,19 @@
 let parent = document.getElementById("parent");
 let reference = document.getElementById("refe");
 
-let new_element= document.createElement('p'); // create new p element
+let new_element = document.createElement("p"); // create new p element
 
 if (new_element) {
-    new_element.textContent = "this is the new p element"
+  new_element.textContent = "this is the new p element";
 }
 
-parent; // append new p element to the end of parent
+parent; // code here: append new p element to the end of parent
 
-parent; // remove the new p element
+parent; // code here: remove the new p element
 
-parent; // add the new element before the reference
+parent; // code here: add the new element before the reference
 
+// Exercise
+// create a div element that has an h1 tag and a p tag inside:
+/** - h1 has the content "div header"
+    - p has the content "hello div header" */

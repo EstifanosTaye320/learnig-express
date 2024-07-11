@@ -14,19 +14,22 @@ console.log(display, display1, display2, display3);
 const container = document.querySelector("#container");
 const controls = document.querySelector(".controls");
 
-let nexttocontrols; // code here
-let insidecontainer; // code here
+let nexttocontrols; // code here: find element next to the div with classname controls
+let insidecontainer; // code here: find element inside the div with classname container
 
 if (nexttocontrols) {
-    console.log(nexttocontrols.classList);
+  console.log(nexttocontrols.classList);
 }
 if (insidecontainer) {
-    console.log(insidecontainer.classList);
+  console.log(insidecontainer.classList);
 }
 
 // Use querySelectorAll to find all the elements that apply
 
-let children; // find all children of container
-let displays; // find all elements with class name display
+let children; // code here: find all children of container
+let displays; // code here: find all elements with class name display
 
 console.log(children, displays);
+
+// Exercise
+// Find more ways to select elements from html files, and code them here
