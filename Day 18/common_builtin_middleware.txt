@@ -1,13 +1,17 @@
 Core Middleware
-    express.json()
+    express.json() // done
 
-    express.urlencoded({ extended: true })
+    express.urlencoded({ extended: true }) // done
 
-    express.static(path)
+    express.static(path) // done
 
     express.raw()
 
-Other Important Middleware
+Built In Middleware
+
+    
+
+Other Important Middleware // checkout the rest
     express.methodOverride()
 
     express.cookieParser()
