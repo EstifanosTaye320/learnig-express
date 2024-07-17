@@ -1,0 +1,13 @@
+Core Middleware
+    express.json()
+
+    express.urlencoded({ extended: true })
+
+    express.static(path)
+
+    express.raw()
+
+Other Important Middleware
+    express.methodOverride()
+
+    express.cookieParser()
