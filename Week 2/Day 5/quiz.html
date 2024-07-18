@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Event-Driven Programming Quiz</title>
+  </head>
+  <body>
+    <div id="buttonContainer">
+      <button>Button 1</button>
+      <button>Button 2</button>
+      <button>Button 3</button>
+    </div>
+
+    <script>
+      // Your JavaScript code here
+      const list_buttons = document.querySelectorAll("button");
+
+      list_buttons.forEach((btn, id) => {
+        btn.addEventListener("click", function () {
+          btn.textContent =
+            btn.textContent == `Button ${id + 1}`
+              ? "Clicked!"
+              : `Button ${id + 1}`;
+        });
+      });
+    </script>
+  </body>
+</html>
