@@ -1,0 +1,5 @@
+1. let array = [] or let array = new Array() 10
+2. array.push() array.unshift() array.shift() array.pop() array.filter() array.splice() 10
+3. for loop, forEach, map 10
+4. map() creates a new array after it is done, forEach() doesn't 5
+5. array.indexOf((ele) => condition) ele in array => bool 10
