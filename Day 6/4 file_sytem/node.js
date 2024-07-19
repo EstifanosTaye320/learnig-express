@@ -1,4 +1,4 @@
-// useing the fs module full access
+// useing the fs module grants full access to files
 
 const fs = require("fs");
 const path = require("path");

@@ -1,0 +1,5 @@
+fs module has the following advantages over FileReader api:
+    - serverside file access
+    - Async operation
+    - Directory managment
+    - File system permission from the os

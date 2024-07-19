@@ -1,0 +1,8 @@
+https://www.youtube.com/watch?v=lMWUqWKEGgQ&t=225s&ab_channel=EngineerMan
+
+### Steps
+    - add "type": "module" to package.json
+    - change require to import
+    - change module.export to export default
+    - remove top level self execution functions
+    - remove "use strict"; from everywhere
