@@ -5,22 +5,21 @@
   </head>
   <body>
     <div id="buttonContainer">
-      <button>Button 1</button>
-      <button>Button 2</button>
-      <button>Button 3</button>
+      <button name="1">Button 1</button>
+      <button name="2">Button 2</button>
+      <button name="3">Button 3</button>
     </div>
 
     <script>
       // Your JavaScript code here
-      const list_buttons = document.querySelectorAll("button");
+      const button_containter = document.getElementById("buttonContainer");
 
-      list_buttons.forEach((btn, id) => {
-        btn.addEventListener("click", function () {
-          btn.textContent =
-            btn.textContent == `Button ${id + 1}`
-              ? "Clicked!"
-              : `Button ${id + 1}`;
-        });
+      button_containter.addEventListener("click", function (event) {
+        if (event.target.textContent.startsWith("Button")) {
+          event.target.textContent = "Clicked!";
+        } else {
+          event.target.textContent = "Button " + event.target.name;
+        }
       });
     </script>
   </body>
