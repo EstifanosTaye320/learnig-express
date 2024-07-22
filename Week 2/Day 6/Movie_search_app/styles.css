@@ -1,0 +1,15 @@
+.details {
+  display: none;
+}
+
+.images {
+  width: 250px;
+}
+
+#search-area {
+  margin-bottom: 20px;
+}
+
+form {
+  color: chartreuse;
+}
