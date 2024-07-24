@@ -1,0 +1,5 @@
+Protection Against Common Attacks: helmet helps protect against various common web vulnerabilities like:
+    Cross-Site Scripting (XSS): Prevents malicious JavaScript code from being injected into your web pages.
+    Clickjacking: Stops attackers from embedding your website in a frame on another site to trick users into performing actions.
+    Content Sniffing: Prevents browsers from automatically guessing the content type of files, potentially leading to vulnerabilities.
+    Frame Options: Controls whether your website can be embedded in iframes, minimizing the risk of clickjacking.

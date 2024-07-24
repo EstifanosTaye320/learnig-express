@@ -1,0 +1,4 @@
+::ffff:127.0.0.1 - - [24/Jul/2024:10:50:42 +0000] "GET / HTTP/1.1" 200 22 "-" "vscode-restclient"
+::ffff:127.0.0.1 - - [24/Jul/2024:10:52:54 +0000] "POST /data HTTP/1.1" 200 12 "-" "vscode-restclient"
+::ffff:127.0.0.1 - - [24/Jul/2024:10:54:49 +0000] "GET /about HTTP/1.1" 200 300 "-" "vscode-restclient"
+::ffff:127.0.0.1 - - [24/Jul/2024:11:03:11 +0000] "POST /upload HTTP/1.1" 404 146 "-" "vscode-restclient"

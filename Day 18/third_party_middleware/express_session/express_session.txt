@@ -1,0 +1,15 @@
+Questions that I asked:
+
+1. Does the following code generate a unique sessionID per user?
+2. Is the id sent to the user as a cookie?
+3. Does the server store temporary data about the user?
+4. Is the sessionID being sent to the user after each request?
+
+Answers that I got
+
+1. Yes, the express-session middleware handles this automatically
+2. Yes, expess-session middleware makes us of cookies
+3. Yes, loggedIn and items are stored in the users session
+4. Not exactly:
+    - First request: the ID is generated and sent to the user in the connect.sid cookie
+    - On subsequent request: the connect.sid cookie is sent back to the server and data is extracted
