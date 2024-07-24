@@ -4,13 +4,10 @@ const fs = require("fs");
 
 const app = express();
 
-// Create a write stream for the access log
 const accessLogStream = fs.createWriteStream("./access.log", { flags: "a" });
 
-// Use morgan with the 'combined' format and the custom stream
 app.use(morgan("combined", { stream: accessLogStream }));
 
-// Basic routes for demonstration
 app.get("/", (req, res) => {
   res.send("Hello from the server!");
 });

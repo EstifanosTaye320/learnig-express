@@ -1,4 +1,4 @@
-const cors = require("cors"); // setup cross origin resource sharing
+const cors = require("cors"); // setup cross origin resource sharing to allow other servers to access the api
 const express = require("express");
 const app = express();
 
