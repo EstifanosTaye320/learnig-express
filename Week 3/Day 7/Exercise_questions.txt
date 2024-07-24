@@ -1,0 +1,11 @@
+1. What is node js?
+>>> it is an enviroment used to write serverside logic for our applications
+
+2. what is the engin used in node js?
+>>> v8 chrome engin
+
+3. what is the command used to initialize a new node project?
+>>> npm init
+
+4. single threaded
+>>> it means there is one dedicated worker that handles all the jobs in node js
