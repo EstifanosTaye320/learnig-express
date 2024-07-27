@@ -1,0 +1,29 @@
+### GET /cats (Retrieve All Cats)
+GET http://localhost:3000/cats
+
+### POST /cats (Create a New Cat)
+POST http://localhost:3000/cats
+Content-Type: application/json
+
+{
+  "name": "Whiskers",
+  "color": "Gray",
+  "pictureUrl": "https://t3.ftcdn.net/jpg/02/56/25/56/240_F_256255660_jGDw9XV8MB8AXfcDRjvi0dXRyf7CbWdB.jpg"
+}
+
+### PATCH /cats (Update an Existing Cat)
+PATCH http://localhost:3000/cats
+Content-Type: application/json
+
+{
+  "name": "Whiskers", 
+  "color": "Fresh_Of_The_Boat_Gray"
+}
+
+### DELETE /cats (Delete a Cat)
+DELETE http://localhost:3000/cats
+Content-Type: application/json
+
+{
+  "name": "Whiskers"
+}

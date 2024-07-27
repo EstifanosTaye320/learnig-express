@@ -1,7 +1,6 @@
 // explore application/json
 
 const http = require("http");
-const fs = require("fs");
 
 const jsonserver = http.createServer((req, res) => {
   const data = { id: 1, name: "estif", pet: "dog", otherpet: "cat" };

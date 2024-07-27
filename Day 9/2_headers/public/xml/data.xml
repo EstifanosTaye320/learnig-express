@@ -1,0 +1,15 @@
+<person>
+    <name>Estifanos Taye</name>
+    <age>22</age>
+    <occupation>Student, Software Engineer</occupation>
+    <address>
+        <street>123 yo mam</street>
+        <city>norten land</city>
+        <state>CA</state>
+        <zip>7777777</zip>
+    </address>
+    <contact>
+        <phone>0925353945</phone>
+        <email>estifanostaye11@gmail.com</email>
+    </contact>
+</person>

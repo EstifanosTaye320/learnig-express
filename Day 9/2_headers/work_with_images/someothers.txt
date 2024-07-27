@@ -1,0 +1,9 @@
+image/gif: A GIF (Graphics Interchange Format) image.
+image/jpeg: A JPEG (Joint Photographic Experts Group) image, known for its compression capabilities.
+image/png: A PNG (Portable Network Graphics) image, known for its lossless compression and support for transparency.
+image/bmp: A BMP (Bitmap) image, a simple format often used for Windows-based applications.
+image/tiff: A TIFF (Tagged Image File Format) image, known for its high quality and support for various image types.
+image/webp: A WebP (Web Picture) image format developed by Google, known for its high compression and quality.
+image/svg+xml: An SVG (Scalable Vector Graphics) image, a vector-based format that can be scaled without losing quality.
+
+### Image format converter: https://adobe.com/express/feature/image/convert/png-to-jpg
