@@ -12,6 +12,6 @@ module.exports = sumArray;
 // mocha sumArray.test.js >> run the test again
 // more concise version of the code the above on is still right
 
-function sumArray(arr) {
-  return arr.reduce((acc, val) => acc + val, 0);
-}
+// function sumArray(arr) {
+//   return arr.reduce((acc, val) => acc + val, 0);
+// }

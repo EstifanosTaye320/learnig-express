@@ -1,7 +1,7 @@
 // test first
 
-const { expect } = require("chai");
-const sumArray = require("./sumArray"); // The function is not yet defined
+import { expect } from "chai";
+import sumArray from "./sumArray.js";
 
 describe("sumArray", () => {
   it("should return 0 for an empty array", () => {
