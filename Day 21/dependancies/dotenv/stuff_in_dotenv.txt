@@ -1,0 +1,35 @@
+1. Database Credentials:
+
+DB_HOST: The hostname or IP address of your database server.
+DB_NAME: The name of your database.
+DB_USER: The username for accessing the database.
+DB_PASSWORD: The password for the database user.
+
+2. API Keys and Secrets:
+
+GOOGLE_API_KEY: For Google services integration.
+STRIPE_SECRET_KEY: For Stripe payment processing.
+TWILIO_ACCOUNT_SID: For Twilio SMS and voice services.
+FACEBOOK_APP_ID: For Facebook integration.
+ANY_OTHER_API_KEYS: Replace with specific API keys you need for your application.
+
+3. Application Configuration:
+
+DEBUG: Set to True for development, False for production (controls error reporting).
+ALLOWED_HOSTS: List of allowed hosts for your application (important for security).
+SECRET_KEY: A randomly generated key used for security (never share this publicly!).
+BASE_URL: The base URL of your application.
+
+4. Other Environment-Specific Settings:
+
+ENVIRONMENT: A variable indicating the current environment (e.g., development, staging, production).
+LOG_LEVEL: Controls the level of logging (e.g., DEBUG, INFO, WARNING, ERROR).
+EMAIL_HOST: The hostname of your email server.
+EMAIL_PORT: The port for your email server.
+EMAIL_HOST_USER: The username for your email server.
+EMAIL_HOST_PASSWORD: The password for your email server.
+
+5. File System Paths:
+
+MEDIA_ROOT: The directory where uploaded files are stored.
+STATIC_ROOT: The directory where static files are collected (e.g., CSS, JavaScript).
