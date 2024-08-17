@@ -1,0 +1,2 @@
+### Post requests doomed to fail
+POST http://localhost:3000/error

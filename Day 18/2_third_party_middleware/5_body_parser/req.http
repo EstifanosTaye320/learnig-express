@@ -1,0 +1,5 @@
+### Post request to /
+POST http://localhost:3000/
+Content-Type: application/x-www-form-urlencoded
+
+name=Estif&age=22

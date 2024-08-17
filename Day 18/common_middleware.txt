@@ -9,26 +9,26 @@ Core Middleware
 
     express.text() // done
 
-    express.Rounter() // done
+    express.Rounter()
 
 Third Party Middleware
-    morgan
+    morgan // done
     
-    body-parser
+    body-parser // slightly
     
     cookie-parser
     
-    cors
+    cors // done
     
     express-session
     
-    helmet
+    helmet // slightly
     
     compression
     
     passport
     
-    multer
+    multer // done
     
     express-rate-limit
 
