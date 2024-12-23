@@ -1,6 +1,7 @@
 {
   "dependencies": {
-    "express": "^4.21.1"
+    "express": "^4.21.1",
+    "mosh_course": "file:"
   },
   "name": "mosh_course",
   "version": "1.0.0",
